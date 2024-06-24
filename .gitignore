@@ -15,3 +15,12 @@ Cargo.lock
 
 # IDE files
 .idea
+
+supra_node_logs
+data_down.sh
+get_txn_details.py
+loop.sh
+output.txt
+README.md
+supra_history
+transaction_details.txt
