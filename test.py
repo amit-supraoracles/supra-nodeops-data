@@ -15,7 +15,7 @@ def git_update(repo_path, commit_message="committing signatures"):
         subprocess.check_call(["git", "commit", "-m", commit_message], cwd=repo_path)
 
         # Push changes to the master branch
-        subprocess.check_call(["git", "push", "origin", "master"], cwd=repo_path)
+        subprocess.check_call(["git", "push", "origin", "genesis-ceremony"], cwd=repo_path)
 
         print("Git operations completed successfully.")
     
